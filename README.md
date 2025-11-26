@@ -61,7 +61,15 @@ Screenshots included in the repository:
 ---
 
 ## 📝 Deliverables
-- **Incident Response Report** (`Incident_Report.pdf`)  
+### 🛡️ SOC Incident Response Report  
+📄 **[Click here to view/download Incident_Report.pdf](screenshots/FUTURE_CS_02)**  
+Contains:  
+- Timeline of events  
+- Indicators of Compromise (IOCs)  
+- Malware detection summary  
+- Severity assessment  
+- Root cause analysis  
+- Recommended mitigation steps   
 - **Alert Classification Table**  
 - **Screenshots** folder containing Splunk evidence  
 - **GitHub Documentation (README.md)** for portfolio showcase  
