@@ -11,8 +11,8 @@ This task simulated how SOC analysts monitor suspicious activities, detect malwa
 ---
 
 ## ✅ Key Highlights
-- Successfully onboarded and indexed `SOC_Task2_Sample_Logs` into Splunk.
-- Investigated abnormal patterns for **user = bob**, including malware events and login anomalies.
+- Successfully onboarded and indexed `SOC_Task2_Sample_Logs` [📄`preview`](screenshots/SOC_Task2_Sample_Logss.txt) into Splunk.
+- Investigated abnormal patterns for **user = bob**, including malware events and login anomalies. [📄`preview`](screenshots/user_bob_splunk.txt)
 - Detected multiple high-severity alerts such as ransomware behavior, worm attempts, and Trojan activity.
 - Correlated authentication failures, file access logs, and suspicious IP connections.
 - Drafted a detailed **Incident Response Report** with timeline, IOCs, root cause analysis & mitigation steps.
@@ -48,21 +48,25 @@ This task simulated how SOC analysts monitor suspicious activities, detect malwa
 ---
 
 ## 📸 Screenshots
-Screenshots included in the repository:
-- Log ingestion in Splunk 
-- Search queries & extracted results  
-- Malware detection events  
-- Failed login spikes  
-- Suspicious IP connections  
-- File access correlation  
-- Incident timeline  
-- Final incident report preview  
+Screenshots included in the repository:  
+- Malware detection events
+- ![Docker Setup](screenshots/threats.png) 
+- Failed login spikes
+- ![Failed login](screenshots/LOGIN_FAILED.png)   
+- Suspicious IP connections
+-   ![Suspicious IP](screenshots/IP.png)
+- File access correlation
+-  ![File Access](screenshots/FA.png)  
+- Incident timeline
+- ![File Access](screenshots/user_bob.png)
+- Multiple Connection attempts
+- ![File Access](screenshots/connections.png)
 
 ---
 
 ## 📝 Deliverables
 ### 🛡️ SOC Incident Response Report  
-📄 **[Click here to view/download Incident_Report.pdf](screenshots/FUTURE_CS_02)**  
+📄 **[Click here to view/download Incident_Report.pdf](screenshots/FUTURE_CS_02.pdf)**  
 Contains:  
 - Timeline of events  
 - Indicators of Compromise (IOCs)  
